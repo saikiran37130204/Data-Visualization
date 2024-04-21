@@ -3,15 +3,16 @@ const path = require('path');
 
 const app = express();
 
-// Set up static files directory
+// Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
+
 
 // Set up views directory and view engine
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'html');
 
 // Routes
-const indexRouter = require('./routes/index');
+const indexRouter = require('./routes/home');
 app.use('/', indexRouter);
 
 // Error handler

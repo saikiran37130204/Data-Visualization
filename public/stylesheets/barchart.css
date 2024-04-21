@@ -1,0 +1,17 @@
+
+
+#chart {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  border: none;
+}
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #aaa;
+  padding: 5px;
+  border-radius: 2px;
+  pointer-events: none;
+}
