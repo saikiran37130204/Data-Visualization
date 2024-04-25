@@ -27,7 +27,7 @@ d3.csv(
     top: 60,
     right: 30,
     bottom: 80,
-    left: 90,
+    left: 200,
   };
   const width = 800 - margin.left - margin.right;
   const height = 400 - margin.top - margin.bottom;
@@ -100,7 +100,7 @@ d3.csv(
     .attr('text-anchor', 'middle')
     .attr('transform', 'rotate(-90)')
     .attr('x', -height / 2)
-    .attr('y', -margin.left + 20)
+    .attr('y', -margin.left + 150)
     .text('Total Annual Rainfall (mm)');
 
   // Create tooltip
