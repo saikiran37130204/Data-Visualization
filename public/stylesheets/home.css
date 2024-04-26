@@ -65,6 +65,7 @@ header {
   color: #333;
   padding: 60px 0;
   text-align: center; 
+  background-image: url('/images/background-img.jpg');
 }
 
 .hero-content h2 {
